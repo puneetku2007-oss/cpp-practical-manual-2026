@@ -1,14 +1,7 @@
 Name: Puneet Kumar
 Loaded 0 book(s) from /tmp/lms-test/dir_as_file.csv
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 1
 Book ID: 601
 Title: Test
@@ -16,13 +9,6 @@ Author: Tester
 Book added.
 WARNING: Cannot open '/tmp/lms-test/dir_as_file.csv' for writing (changes are not saved)
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 7
 Goodbye!

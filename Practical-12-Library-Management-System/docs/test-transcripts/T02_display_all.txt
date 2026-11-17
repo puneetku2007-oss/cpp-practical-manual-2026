@@ -1,14 +1,7 @@
 Name: Puneet Kumar
 Loaded 5 book(s) from /tmp/lms-test/t1.csv
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 2
 [101] Let Us C++ by Yashavant Kanetkar - Available
 [102] The C++ Programming Language by Bjarne Stroustrup - Available
@@ -17,13 +10,6 @@ Choice: 2
 [105] A Tour of C++ by Bjarne Stroustrup - Available
 5 book(s) in total.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 7
 Goodbye!

@@ -212,9 +212,8 @@ int main(int argc, char* argv[]) {
     library.load();
 
     while (true) {
-        cout << "\n===== LIBRARY MENU =====\n"
-             << "1. Add book\n2. Display all books\n3. Search by ID\n4. Search by title\n"
-             << "5. Issue book\n6. Return book\n7. Exit\n";
+        cout << "\n== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title"
+             << " | 5 Issue | 6 Return | 7 Exit ==" << endl;
         try {
             string choice = readLine("Choice: ");
             if (choice == "1") {

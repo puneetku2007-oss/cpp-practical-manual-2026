@@ -1,86 +1,37 @@
 Name: Puneet Kumar
 Loaded 5 book(s) from /tmp/lms-test/t1.csv
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: abc
 Invalid menu choice. Enter a number from 1 to 7.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 3
 Book ID to search: xyz
 ERROR: Invalid number: 'xyz'. Enter a positive whole number.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 3
 Book ID to search: -4
 ERROR: Invalid number: '-4'. Enter a positive whole number.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 3
 Book ID to search: 0
 ERROR: ID must be greater than zero
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 1
 Book ID: 401
 Title: 
 ERROR: Title cannot be empty
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 1
 Book ID: 402
 Title: Bad,Title
 ERROR: Title cannot contain a comma (CSV format)
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 7
 Goodbye!

@@ -1,14 +1,7 @@
 Name: Puneet Kumar
 Loaded 5 book(s) from data/books.csv
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 2
 [101] Let Us C++ by Yashavant Kanetkar - Available
 [102] The C++ Programming Language by Bjarne Stroustrup - Available
@@ -17,154 +10,60 @@ Choice: 2
 [105] A Tour of C++ by Bjarne Stroustrup - Available
 5 book(s) in total.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 3
 Book ID to search: 104
 [104] C++ Primer by Stanley Lippman - Available
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
-Choice: 4
-Title keyword: stroustrup
-No book found with 'stroustrup' in the title.
-
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 4
 Title keyword: tour
 [105] A Tour of C++ by Bjarne Stroustrup - Available
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
+Choice: 4
+Title keyword: java
+No book found with 'java' in the title.
+
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 1
 Book ID: 106
 Title: Clean Architecture
 Author: Robert Martin
 Book added.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 5
 Book ID to issue: 106
 Book issued.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 5
 Book ID to issue: 106
 ERROR: 'Clean Architecture' is already issued
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
-Choice: 2
-[101] Let Us C++ by Yashavant Kanetkar - Available
-[102] The C++ Programming Language by Bjarne Stroustrup - Available
-[103] Effective Modern C++ by Scott Meyers - Issued
-[104] C++ Primer by Stanley Lippman - Available
-[105] A Tour of C++ by Bjarne Stroustrup - Available
-[106] Clean Architecture by Robert Martin - Issued
-6 book(s) in total.
-
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 6
 Book ID to return: 106
 Book returned.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 6
 Book ID to return: 106
 ERROR: 'Clean Architecture' was not issued
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 1
 Book ID: 101
 Title: Duplicate
 Author: Nobody
 ERROR: Book ID 101 already exists
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 3
 Book ID to search: 999
 ERROR: Book ID 999 not found
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 7
 Goodbye!

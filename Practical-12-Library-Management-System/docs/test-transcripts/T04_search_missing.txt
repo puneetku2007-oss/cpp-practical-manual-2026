@@ -1,37 +1,16 @@
 Name: Puneet Kumar
 Loaded 5 book(s) from /tmp/lms-test/t1.csv
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 3
 Book ID to search: 999
 ERROR: Book ID 999 not found
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 4
 Title keyword: Java
 No book found with 'Java' in the title.
 
-===== LIBRARY MENU =====
-1. Add book
-2. Display all books
-3. Search by ID
-4. Search by title
-5. Issue book
-6. Return book
-7. Exit
+== MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 7
 Goodbye!
