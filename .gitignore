@@ -1,0 +1,17 @@
+# Build output
+build/
+*.o
+*.out
+a.out
+practical[0-9][0-9]
+library
+
+# Temporary files created while running the practicals
+Practical-11-File-Handling/pos.txt
+Practical-11-File-Handling/malformed.csv
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
