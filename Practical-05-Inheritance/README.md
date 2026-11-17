@@ -42,7 +42,7 @@ Name: Puneet Kumar
 
 --- Student (single inheritance: Person -> Student) ---
 Name: Puneet Kumar, Age: 19
-Student ID: 36, Course: B.Tech CSE
+Student ID: 36, Course: B.Tech AI & DS
 
 --- GraduateStudent (multilevel: Person -> Student -> GraduateStudent) ---
 Name: Jehal Shah, Age: 23

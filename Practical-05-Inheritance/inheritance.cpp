@@ -33,7 +33,7 @@ public:
 int main() {
     cout << "Name: Puneet Kumar" << endl;
     cout << "\n--- Student (single inheritance: Person -> Student) ---" << endl;
-    Student s("Puneet Kumar", 19, 36, "B.Tech CSE");
+    Student s("Puneet Kumar", 19, 36, "B.Tech AI & DS");
     s.displayStudent();
     cout << "\n--- GraduateStudent (multilevel: Person -> Student -> GraduateStudent) ---"
          << endl;
