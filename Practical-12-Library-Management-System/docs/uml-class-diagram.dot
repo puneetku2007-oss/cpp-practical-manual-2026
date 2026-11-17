@@ -1,0 +1,26 @@
+// UML class diagram of src/library.cpp  (render: dot -Tpng uml-class-diagram.dot -o uml-class-diagram.png)
+digraph LibraryUML {
+  rankdir=BT; nodesep=0.45; ranksep=0.6;
+  node [shape=record fontname="Helvetica" fontsize=11 style=filled fillcolor="#EAF5F5" color="#078A92"];
+  edge [color="#17324D" fontname="Helvetica" fontsize=9];
+
+  Item [label="{«abstract»\nItem|+ describe() : string  «pure virtual»\l+ toCsv() : string  «pure virtual»\l+ ~Item()  «virtual»\l}"];
+  Book [label="{Book|- id : int\l- title : string\l- author : string\l- available : bool\l|+ Book(id, title, author, available = true)\l+ getId() : int\l+ getTitle() : const string&\l+ getAuthor() : const string&\l+ isAvailable() : bool\l+ issue() : void\l+ giveBack() : void\l+ describe() : string\l+ toCsv() : string\l}"];
+  Library [label="{Library|- books : map\<int, unique_ptr\<Book\>\>\l- filePath : string\l|+ Library(csvPath)\l+ addBook(id, title, author) : void\l+ findById(id) : Book&\l+ issueBook(id) : void\l+ returnBook(id) : void\l+ displayAll() : void\l+ searchByTitle(keyword) : int\l+ save() : void\l+ load() : void\l}"];
+
+  RuntimeError [label="{«std»\nruntime_error|}" fillcolor="#F4F6F8" color="#5C6B78"];
+  LibraryError [label="{LibraryError|+ LibraryError(message)\l}"];
+  BookNotFound [label="{BookNotFound|+ BookNotFound(id)\l}"];
+  DuplicateBook [label="{DuplicateBook|+ DuplicateBook(id)\l}"];
+  BookUnavailable [label="{BookUnavailable|+ BookUnavailable(title)\l}"];
+  FileError [label="{FileError|+ FileError(message)\l}"];
+
+  Book -> Item [arrowhead=empty];
+  Library -> Book [dir=back arrowtail=diamond arrowhead=none label=" owns 0..*  (composition)" taillabel="1" headlabel="0..*" labeldistance=2];
+  LibraryError -> RuntimeError [arrowhead=empty];
+  BookNotFound -> LibraryError [arrowhead=empty];
+  DuplicateBook -> LibraryError [arrowhead=empty];
+  BookUnavailable -> LibraryError [arrowhead=empty];
+  FileError -> LibraryError [arrowhead=empty];
+  Library -> LibraryError [style=dashed arrowhead=open label=" «throws»"];
+}
