@@ -1,0 +1,18 @@
+Name: Puneet Kumar
+Enter student name: Puneet
+Marks in subject 1 (0-100): abc
+Invalid marks. Please enter a number between 0 and 100.
+Marks in subject 1 (0-100): 150
+Invalid marks. Please enter a number between 0 and 100.
+Marks in subject 1 (0-100): -5
+Invalid marks. Please enter a number between 0 and 100.
+Marks in subject 1 (0-100): 85
+Marks in subject 2 (0-100): 72
+Marks in subject 3 (0-100): 30
+
+--- Result ---
+Student : Puneet
+Total   : 187 / 300
+Percent : 62.3333%
+Total % 7 (modulus demo) : 5
+Status  : FAIL

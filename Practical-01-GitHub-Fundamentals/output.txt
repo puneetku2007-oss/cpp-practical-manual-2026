@@ -1,0 +1,12 @@
+Name: Puneet Kumar
+Enter student name: Puneet
+Marks in subject 1 (0-100): 85
+Marks in subject 2 (0-100): 72
+Marks in subject 3 (0-100): 90
+
+--- Result ---
+Student : Puneet
+Total   : 247 / 300
+Percent : 82.3333%
+Total % 7 (modulus demo) : 2
+Status  : PASS

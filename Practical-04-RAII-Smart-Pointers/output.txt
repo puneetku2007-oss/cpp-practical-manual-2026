@@ -1,0 +1,19 @@
+Name: Puneet Kumar
+
+1) unique_ptr (single owner)
+  [acquired] File-A
+  using File-A
+  u1 empty after move? yes
+  using File-A
+  [released] File-A
+
+2) shared_ptr (shared ownership)
+  [acquired] Shared-DB
+  use_count = 1
+  use_count = 2 (second owner added)
+  using Shared-DB
+  use_count = 1 (second owner gone)
+  [released] Shared-DB
+
+3) 100000 iterations with unique_ptr (no leak)
+  loop finished, sum = 4999950000
