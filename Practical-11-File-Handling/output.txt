@@ -1,0 +1,23 @@
+Name: Puneet Kumar
+Wrote 3 records to students.csv
+
+--- Reading students.csv ---
+ID  Name     Marks
+1   Puneet   88.5
+2   Jehal   91
+3   Aarav   76.25
+
+--- Error handling: missing file ---
+  Could not open does_not_exist.csv (handled safely)
+
+--- Error handling: malformed lines ---
+  Skipping malformed line 3: this line is wrong
+  Skipping line 4 (invalid number): 5,Karan,abc
+  Valid records loaded: 2
+
+--- File position functions ---
+Initial tellg() = 0, tellp() = 0
+seekg(4) then get() -> 'E', tellg() = 5
+seekp(2) then put('x'), tellp() = 3
+File content now: ABxDEFGHIJ
+File size via seekg(0, end)/tellg() = 10 bytes

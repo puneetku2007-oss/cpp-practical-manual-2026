@@ -1,0 +1,6 @@
+Name: Puneet Kumar
+Opening balance = 5000
+Withdraw 1200: SUCCESS. Balance = 3800
+Withdraw -100: InvalidAmount: amount must be greater than zero | Balance unchanged = 3800
+Withdraw 9000: InsufficientFunds: withdrawal exceeds available balance | Balance unchanged = 3800
+Withdraw 3800: SUCCESS. Balance = 0
