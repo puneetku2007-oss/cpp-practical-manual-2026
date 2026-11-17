@@ -1,5 +1,5 @@
 Name: Puneet Kumar
-No data file '/tmp/lms-test/new_folder/none.csv' found. Starting with an empty library.
+No data file '/tmp/lms-test/none.csv' found. Starting with an empty library.
 
 == MENU: 1 Add | 2 Display all | 3 Search by ID | 4 Search by title | 5 Issue | 6 Return | 7 Exit ==
 Choice: 2

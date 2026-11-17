@@ -5,7 +5,6 @@
 // Usage:  ./library [path-to-csv]        (default: data/books.csv)
 #include <algorithm>
 #include <cctype>
-#include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -128,9 +127,6 @@ public:
 
     // ---------- File handling ----------
     void save() const {
-        error_code ec;
-        filesystem::path parent = filesystem::path(filePath).parent_path();
-        if (!parent.empty()) filesystem::create_directories(parent, ec);
         ofstream out(filePath);                       // closed automatically (RAII)
         if (!out) throw FileError("Cannot open '" + filePath + "' for writing");
         out << "id,title,author,available\n";
@@ -142,10 +138,7 @@ public:
     void load() {
         ifstream in(filePath);
         if (!in) {
-            if (filesystem::exists(filePath))
-                cout << "Warning: cannot read '" << filePath << "'. Starting with an empty library." << endl;
-            else
-                cout << "No data file '" << filePath << "' found. Starting with an empty library." << endl;
+            cout << "No data file '" << filePath << "' found. Starting with an empty library." << endl;
             return;
         }
         string line;
