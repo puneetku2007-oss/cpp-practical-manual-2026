@@ -1,0 +1,38 @@
+Name: Puneet Kumar
+No data file '/tmp/lms-test/new_folder/none.csv' found. Starting with an empty library.
+
+===== LIBRARY MENU =====
+1. Add book
+2. Display all books
+3. Search by ID
+4. Search by title
+5. Issue book
+6. Return book
+7. Exit
+Choice: 2
+No books in the library.
+
+===== LIBRARY MENU =====
+1. Add book
+2. Display all books
+3. Search by ID
+4. Search by title
+5. Issue book
+6. Return book
+7. Exit
+Choice: 1
+Book ID: 501
+Title: First Book
+Author: Author One
+Book added.
+
+===== LIBRARY MENU =====
+1. Add book
+2. Display all books
+3. Search by ID
+4. Search by title
+5. Issue book
+6. Return book
+7. Exit
+Choice: 7
+Goodbye!

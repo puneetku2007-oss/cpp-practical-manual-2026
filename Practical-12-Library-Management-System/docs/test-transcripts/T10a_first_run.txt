@@ -1,0 +1,39 @@
+Name: Puneet Kumar
+Loaded 5 book(s) from /tmp/lms-test/t10.csv
+
+===== LIBRARY MENU =====
+1. Add book
+2. Display all books
+3. Search by ID
+4. Search by title
+5. Issue book
+6. Return book
+7. Exit
+Choice: 1
+Book ID: 301
+Title: The Pragmatic Programmer
+Author: Andrew Hunt
+Book added.
+
+===== LIBRARY MENU =====
+1. Add book
+2. Display all books
+3. Search by ID
+4. Search by title
+5. Issue book
+6. Return book
+7. Exit
+Choice: 5
+Book ID to issue: 301
+Book issued.
+
+===== LIBRARY MENU =====
+1. Add book
+2. Display all books
+3. Search by ID
+4. Search by title
+5. Issue book
+6. Return book
+7. Exit
+Choice: 7
+Goodbye!
